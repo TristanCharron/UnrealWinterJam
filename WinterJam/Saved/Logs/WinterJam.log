@@ -1,18 +1,20 @@
-﻿Log file open, 02/09/18 20:18:14
+﻿Log file open, 02/09/18 21:29:46
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WinterJam
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1510580360) SRandInit(1510580360).
+LogInit: Display: RandInit(-345632044) SRandInit(-345632044).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.177439
+LogStats: Stats thread started at 0.164882
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -189,746 +191,196 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.10-01.18.16:237][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.10-01.18.16:237][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.10-01.18.16:248][  0]LogInit: Computer: TRISTAN
-[2018.02.10-01.18.16:248][  0]LogInit: User: TristanCharron
-[2018.02.10-01.18.16:248][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.10-01.18.16:248][  0]LogInit: High frequency timer resolution =2.533211 MHz
-[2018.02.10-01.18.16:248][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.02.10-01.18.16:248][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.10-01.18.16:248][  0]LogMemory: Process Physical Memory: 274.78 MB used, 274.78 MB peak
-[2018.02.10-01.18.16:248][  0]LogMemory: Process Virtual Memory: 269.96 MB used, 269.96 MB peak
-[2018.02.10-01.18.16:248][  0]LogMemory: Physical Memory: 5122.49 MB used,  11150.52 MB free, 16273.01 MB total
-[2018.02.10-01.18.16:248][  0]LogMemory: Virtual Memory: 682.99 MB used,  11150.52 MB free, 134217728.00 MB total
-[2018.02.10-01.18.16:388][  0]LogInit: Using OS detected language (en-US).
-[2018.02.10-01.18.16:388][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.10-01.18.16:391][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.10-01.18.16:790][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.10-01.18.17:040][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.10-01.18.17:066][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.02.10-01.18.17:066][  0]LogD3D11RHI:       2018/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.10-01.18.17:072][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.02.10-01.18.17:072][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.10-01.18.17:074][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.10-01.18.17:074][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.10-01.18.17:074][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.10-01.18.17:079][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.10-01.18.17:079][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.02.10-01.18.17:079][  0]LogWindows: EnumDisplayDevices:
-[2018.02.10-01.18.17:079][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.02.10-01.18.17:079][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.10-01.18.17:079][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.10-01.18.17:079][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.10-01.18.17:079][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.02.10-01.18.17:079][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.10-01.18.17:079][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.10-01.18.17:079][  0]LogRHI: Texture pool is 1413 MB (70% of 2018 MB)
-[2018.02.10-01.18.17:092][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.10-01.18.17:103][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.10-01.18.17:104][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Intermediate/Shaders/WorkingDirectory/10528/).
-[2018.02.10-01.18.17:104][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TristanCharron/AppData/Local/Temp/UnrealShaderWorkingDir/E154BBBF4126A0A7EA1048AC084A02B3/'.
-[2018.02.10-01.18.17:104][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.10-01.18.18:203][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.10-01.18.18:254][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.10-01.18.18:304][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.10-01.18.18:353][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.10-01.18.18:405][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.10-01.18.18:455][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.10-01.18.18:505][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.10-01.18.18:557][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.10-01.18.18:601][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.10-01.18.18:650][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.10-01.18.18:699][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.10-01.18.18:747][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.10-01.18.18:797][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.10-01.18.18:845][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.10-01.18.18:943][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.10-01.18.18:943][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.10-01.18.18:991][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.10-01.18.19:030][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.10-01.18.19:118][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.10-01.18.19:143][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.10-01.18.19:193][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.10-01.18.19:241][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.10-01.18.19:290][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.10-01.18.19:341][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.10-01.18.19:341][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.10-01.18.19:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.10-01.18.19:859][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/TristanCharron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.10-01.18.19:859][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TristanCharron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.10-01.18.19:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.10-01.18.19:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.10-01.18.19:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.10-01.18.19:859][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.10-01.18.19:875][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.10-01.18.19:888][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TristanCharron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.10-01.18.19:898][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.10-01.18.19:898][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.10-01.18.19:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.10-01.18.19:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.10-01.18.20:261][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.10-01.18.20:591][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.10-01.18.20:633][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.10-01.18.20:633][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.10-01.18.20:633][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.10-01.18.20:633][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.10-01.18.20:633][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.10-01.18.20:663][  0]LogNetVersion: WinterJam , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3197503415)
-[2018.02.10-01.18.20:829][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2018.02.10-01.18.21:339][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056638 seconds
-[2018.02.10-01.18.21:345][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.10-01.18.21:345][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.10-01.18.21:345][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.10-01.18.21:405][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.10-01.18.24:244][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.10-01.18.24:295][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.10-01.18.24:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.10-01.18.25:407][  0]SourceControl: Source control is disabled
-[2018.02.10-01.18.25:407][  0]SourceControl: Source control is disabled
-[2018.02.10-01.18.25:462][  0]SourceControl: Source control is disabled
-[2018.02.10-01.18.25:515][  0]SourceControl: Source control is disabled
-[2018.02.10-01.18.26:339][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.10-01.18.26:612][  0]LogOcInput: OculusInput pre-init called
-[2018.02.10-01.18.26:906][  0]LogEngine: Initializing Engine...
-[2018.02.10-01.18.26:908][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.10-01.18.27:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.10-01.18.27:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.10-01.18.27:271][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.10-01.18.27:278][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.10-01.18.27:403][  0]LogInit: FAudioDevice initialized.
-[2018.02.10-01.18.27:878][  0]LogDerivedDataCache: Saved boot cache 0.47s 78MB C:/Users/TristanCharron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.10-01.18.27:894][  0]LogInit: Texture streaming: Enabled
-[2018.02.10-01.18.27:991][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.10-01.18.28:123][  0]LogInit: Transaction tracking system initialized
-[2018.02.10-01.18.28:433][  0]BlueprintLog: New page: Editor Load
-[2018.02.10-01.18.29:356][  0]LocalizationService: Localization service is disabled
-[2018.02.10-01.18.30:100][  0]LogConsoleResponse: Display: 
-[2018.02.10-01.18.30:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/' took 0.01s
-[2018.02.10-01.18.30:312][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.10-01.18.30:312][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.10-01.18.30:312][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.10-01.18.31:532][  0]SourceControl: Source control is disabled
-[2018.02.10-01.18.31:606][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/StarterContent.upack)
-[2018.02.10-01.18.31:621][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.02.10-01.18.31:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.02.10-01.18.31:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.02.10-01.18.31:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.02.10-01.18.31:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.02.10-01.18.31:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.02.10-01.18.31:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.02.10-01.18.31:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.02.10-01.18.31:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.02.10-01.18.31:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.02.10-01.18.31:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.02.10-01.18.31:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.02.10-01.18.31:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.02.10-01.18.31:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.02.10-01.18.31:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.02.10-01.18.31:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.02.10-01.18.31:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.02.10-01.18.31:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.02.10-01.18.31:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Fire01.uasset"
-[2018.02.10-01.18.31:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.02.10-01.18.31:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.02.10-01.18.31:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.02.10-01.18.31:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Light01.uasset"
-[2018.02.10-01.18.31:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.02.10-01.18.31:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Light02.uasset"
-[2018.02.10-01.18.31:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.02.10-01.18.31:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.02.10-01.18.31:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.02.10-01.18.31:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.02.10-01.18.31:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.02.10-01.18.31:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.02.10-01.18.31:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.02.10-01.18.31:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.02.10-01.18.31:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.02.10-01.18.31:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Steam01.uasset"
-[2018.02.10-01.18.31:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.02.10-01.18.31:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.02.10-01.18.31:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.02.10-01.18.31:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.02.10-01.18.31:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.02.10-01.18.31:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.02.10-01.18.31:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.02.10-01.18.31:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.02.10-01.18.31:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.02.10-01.18.31:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.02.10-01.18.31:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.02.10-01.18.31:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.02.10-01.18.31:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.02.10-01.18.31:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.02.10-01.18.31:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.02.10-01.18.31:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.02.10-01.18.31:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.02.10-01.18.31:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.02.10-01.18.31:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.02.10-01.18.31:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.02.10-01.18.31:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.02.10-01.18.31:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.02.10-01.18.31:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/StarterMap.umap"
-[2018.02.10-01.18.31:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.02.10-01.18.31:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.02.10-01.18.31:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.02.10-01.18.31:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.02.10-01.18.31:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.02.10-01.18.31:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.02.10-01.18.32:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.02.10-01.18.32:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.02.10-01.18.32:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.02.10-01.18.32:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.02.10-01.18.32:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.02.10-01.18.32:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.02.10-01.18.32:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.02.10-01.18.32:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.02.10-01.18.32:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.02.10-01.18.32:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.02.10-01.18.32:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.02.10-01.18.32:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.02.10-01.18.32:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.02.10-01.18.32:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.02.10-01.18.32:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.02.10-01.18.32:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.02.10-01.18.32:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.02.10-01.18.32:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.02.10-01.18.32:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.02.10-01.18.32:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.02.10-01.18.32:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.02.10-01.18.32:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.02.10-01.18.32:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.02.10-01.18.32:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.02.10-01.18.32:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.02.10-01.18.32:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.02.10-01.18.32:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.02.10-01.18.32:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.02.10-01.18.32:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.02.10-01.18.32:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.02.10-01.18.32:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.02.10-01.18.32:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.02.10-01.18.32:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.02.10-01.18.32:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.02.10-01.18.32:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.02.10-01.18.32:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.02.10-01.18.32:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.02.10-01.18.32:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.02.10-01.18.32:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.02.10-01.18.32:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.02.10-01.18.32:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.02.10-01.18.32:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.02.10-01.18.32:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.02.10-01.18.32:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.02.10-01.18.32:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.02.10-01.18.32:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.02.10-01.18.32:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.02.10-01.18.32:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.02.10-01.18.32:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.02.10-01.18.32:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.02.10-01.18.32:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.02.10-01.18.32:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.02.10-01.18.32:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.02.10-01.18.32:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.02.10-01.18.32:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.02.10-01.18.32:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.02.10-01.18.32:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.02.10-01.18.32:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.02.10-01.18.32:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.02.10-01.18.32:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Door.uasset"
-[2018.02.10-01.18.32:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.02.10-01.18.32:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.02.10-01.18.32:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.02.10-01.18.32:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.02.10-01.18.32:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.02.10-01.18.32:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.02.10-01.18.32:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.02.10-01.18.32:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.02.10-01.18.32:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.02.10-01.18.32:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.02.10-01.18.32:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.02.10-01.18.32:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.02.10-01.18.32:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.02.10-01.18.32:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.02.10-01.18.32:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.02.10-01.18.32:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.02.10-01.18.32:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.02.10-01.18.32:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.02.10-01.18.32:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.02.10-01.18.32:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.02.10-01.18.32:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.02.10-01.18.32:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.02.10-01.18.32:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.02.10-01.18.32:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.02.10-01.18.32:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.02.10-01.18.32:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.02.10-01.18.32:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.02.10-01.18.32:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.02.10-01.18.32:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.02.10-01.18.32:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.02.10-01.18.32:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.02.10-01.18.32:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.02.10-01.18.32:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.02.10-01.18.32:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.02.10-01.18.32:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.02.10-01.18.32:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.02.10-01.18.32:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.02.10-01.18.32:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.02.10-01.18.32:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.02.10-01.18.32:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.02.10-01.18.32:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.02.10-01.18.32:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.02.10-01.18.32:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.02.10-01.18.32:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.02.10-01.18.32:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.02.10-01.18.32:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.02.10-01.18.32:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.02.10-01.18.32:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.02.10-01.18.32:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.02.10-01.18.32:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.02.10-01.18.32:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.02.10-01.18.32:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.02.10-01.18.32:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.02.10-01.18.32:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.02.10-01.18.32:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.02.10-01.18.32:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.02.10-01.18.32:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.02.10-01.18.32:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.02.10-01.18.32:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.02.10-01.18.32:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.02.10-01.18.32:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.02.10-01.18.32:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.02.10-01.18.32:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.02.10-01.18.32:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.02.10-01.18.32:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.02.10-01.18.32:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.02.10-01.18.32:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.02.10-01.18.32:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.02.10-01.18.32:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.02.10-01.18.32:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.02.10-01.18.32:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.02.10-01.18.32:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.02.10-01.18.32:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.02.10-01.18.32:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.02.10-01.18.32:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.02.10-01.18.32:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.02.10-01.18.32:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.02.10-01.18.32:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.02.10-01.18.32:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.02.10-01.18.32:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.02.10-01.18.32:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.02.10-01.18.32:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.02.10-01.18.32:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.02.10-01.18.32:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.02.10-01.18.32:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.02.10-01.18.32:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.02.10-01.18.33:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.02.10-01.18.33:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.02.10-01.18.33:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.02.10-01.18.33:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.02.10-01.18.33:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.02.10-01.18.33:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.02.10-01.18.33:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.02.10-01.18.33:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.02.10-01.18.33:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.02.10-01.18.33:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.02.10-01.18.33:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.02.10-01.18.33:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.02.10-01.18.33:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.02.10-01.18.33:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.02.10-01.18.33:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.02.10-01.18.33:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.02.10-01.18.33:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.02.10-01.18.33:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.02.10-01.18.33:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.02.10-01.18.33:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.02.10-01.18.33:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.02.10-01.18.33:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.02.10-01.18.33:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.02.10-01.18.33:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.02.10-01.18.33:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.02.10-01.18.33:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.02.10-01.18.33:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.02.10-01.18.33:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.02.10-01.18.33:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.02.10-01.18.33:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.02.10-01.18.33:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.02.10-01.18.33:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.02.10-01.18.33:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.02.10-01.18.33:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.02.10-01.18.33:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.02.10-01.18.33:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.02.10-01.18.33:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.02.10-01.18.33:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.02.10-01.18.33:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.02.10-01.18.33:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.02.10-01.18.33:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.02.10-01.18.33:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.02.10-01.18.33:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.02.10-01.18.33:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.02.10-01.18.33:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.02.10-01.18.33:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.02.10-01.18.33:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.02.10-01.18.33:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.02.10-01.18.33:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.02.10-01.18.33:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.02.10-01.18.33:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.02.10-01.18.33:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.02.10-01.18.33:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.02.10-01.18.33:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.02.10-01.18.34:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.02.10-01.18.34:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.02.10-01.18.34:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.02.10-01.18.34:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.02.10-01.18.34:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.02.10-01.18.34:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.02.10-01.18.34:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.02.10-01.18.34:061][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
-[2018.02.10-01.18.34:143][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2018.02.10-01.18.34:428][  0]LogStaticMesh: Built static mesh [0.29s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2018.02.10-01.18.35:730][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.02.10-01.18.37:409][  0]LogSavePackage: Save=500.49ms
-[2018.02.10-01.18.37:409][  0]LogSavePackage: Moving '../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Saved/Floor_400x400323F1291407FEE9E75407EBDF4894E51.tmp' to '../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.02.10-01.18.37:417][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.02.10-01.18.37:417][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.02.10-01.18.37:422][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.10-01.18.37:422][  0]LightingResults: New page: Lighting Build
-[2018.02.10-01.18.37:482][  0]MapCheck: New page: Map Check
-[2018.02.10-01.18.37:482][  0]LightingResults: New page: Lighting Build
-[2018.02.10-01.18.38:985][  0]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
-[2018.02.10-01.18.39:080][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
-[2018.02.10-01.18.39:164][  0]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
-[2018.02.10-01.18.39:583][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
-[2018.02.10-01.18.39:624][  0]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
-[2018.02.10-01.18.39:669][  0]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
-[2018.02.10-01.18.39:985][  0]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
-[2018.02.10-01.18.40:198][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.10-01.18.40:305][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.10-01.18.40:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.10-01.18.40:401][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.57ms to complete.
-[2018.02.10-01.18.40:401][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.980
-[2018.02.10-01.18.40:478][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.10-01.18.41:521][  0]LogCollectionManager: Loaded 0 collections in 0.003128 seconds
-[2018.02.10-01.18.41:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Saved/Collections/' took 0.01s
-[2018.02.10-01.18.41:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/Developers/TristanCharron/Collections/' took 0.01s
-[2018.02.10-01.18.41:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/Collections/' took 0.01s
-[2018.02.10-01.18.41:711][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.02.10-01.18.41:734][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2363 classes and 519 folders.
-[2018.02.10-01.18.42:156][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.10-01.18.42:781][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.02.10-01.18.42:945][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.02.10-01.18.43:189][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.10-01.18.43:211][  0]LogSlate: Took 0.000790 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.10-01.18.43:717][  0]LogSlate: Took 0.118180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.10-01.18.43:892][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
-[2018.02.10-01.18.43:921][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2018.02.10-01.18.44:133][  0]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.10-01.18.44:428][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.02.10-01.18.44:428][  0]LogLoad: (Engine Initialization) Total time: 30.50 seconds
-[2018.02.10-01.18.44:428][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.10-01.18.44:428][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.10-01.18.44:428][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.10-01.18.44:946][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.10-01.18.45:028][  1]LogAssetRegistry: Asset discovery search completed in 24.2214 seconds
-[2018.02.10-01.18.45:033][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000036 seconds (found 0 objects)
-[2018.02.10-01.18.45:033][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000163 seconds (updated 0 objects)
-[2018.02.10-01.18.51:914][281]LogSourceControl: Warning: '../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/' is not part of a Git repository
-[2018.02.10-01.24.30:113][488]LogUProjectInfo: Found projects:
-[2018.02.10-01.25.59:473][798]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.10-01.25.59:740][799]Cmd: QUIT_EDITOR
-[2018.02.10-01.25.59:791][799]LogExit: Preparing to exit.
-[2018.02.10-01.26.00:478][799]LogDirectoryWatcher: A directory notification for 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/' was aborted.
-[2018.02.10-01.26.00:492][799]LogExit: Editor shut down
-[2018.02.10-01.26.00:495][799]LogExit: Transaction tracking system shut down
-[2018.02.10-01.26.00:624][799]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.02.10-01.26.00:624][799]LogDirectoryWatcher: A directory notification for '../../../../../../Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/' was aborted.
-[2018.02.10-01.26.00:624][799]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.02.10-01.26.00:624][799]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.02.10-01.26.00:624][799]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.02.10-01.26.00:624][799]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.02.10-01.26.00:625][799]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.02.10-01.26.00:670][799]LogExit: Object subsystem successfully closed.
-[2018.02.10-01.26.00:684][799]LogD3D11RHI: Shutdown
-[2018.02.10-01.26.00:684][799]LogD3D11RHI: CleanupD3DDevice
-[2018.02.10-01.26.00:686][799]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.10-01.26.00:703][799]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.02.10-01.26.00:703][799]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.02.10-01.26.00:718][799]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.02.10-01.26.00:722][799]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.02.10-01.26.00:723][799]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.02.10-01.26.00:723][799]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.02.10-01.26.00:723][799]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.02.10-01.26.00:723][799]LogDirectoryWatcher: A directory notification for 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/Collections/' was aborted.
-[2018.02.10-01.26.00:723][799]LogDirectoryWatcher: A directory notification for 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Content/Developers/TristanCharron/Collections/' was aborted.
-[2018.02.10-01.26.00:723][799]LogDirectoryWatcher: A directory notification for 'C:/Users/TristanCharron/Documents/Unreal Projects/WinterJam/Saved/Collections/' was aborted.
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.02.10-01.26.00:724][799]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.02.10-01.26.00:725][799]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.02.10-01.26.00:912][799]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.02.10-01.26.00:913][799]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.02.10-01.26.00:967][799]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.02.10-01.26.00:968][799]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.02.10-01.26.00:980][799]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.02.10-01.26.00:981][799]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.02.10-01.26.00:982][799]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.02.10-01.26.00:982][799]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.02.10-01.26.00:982][799]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.02.10-01.26.00:983][799]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.02.10-01.26.01:084][799]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.02.10-01.26.01:418][799]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.02.10-01.26.01:418][799]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.02.10-01.26.01:418][799]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.02.10-01.26.01:418][799]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.02.10-01.26.01:418][799]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.02.10-01.26.01:418][799]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.02.10-01.26.01:419][799]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.02.10-01.26.01:419][799]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.02.10-01.26.01:419][799]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.02.10-01.26.01:419][799]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.02.10-01.26.01:421][799]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.02.10-01.26.01:421][799]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.02.10-01.26.01:421][799]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.02.10-01.26.01:421][799]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.02.10-01.26.01:421][799]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.02.10-01.26.01:421][799]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.02.10-01.26.01:427][799]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.02.10-01.26.01:428][799]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.02.10-01.26.01:428][799]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.02.10-01.26.01:428][799]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.02.10-01.26.01:428][799]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.02.10-01.26.01:428][799]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.02.10-01.26.01:430][799]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.02.10-01.26.01:431][799]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.02.10-01.26.01:491][799]LogDerivedDataCache: Shutdown
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.02.10-01.26.01:491][799]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.02.10-01.26.01:492][799]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.02.10-01.26.01:492][799]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.02.10-01.26.01:492][799]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0A7958B4-40D2-8C5C-DA41-89B948421A98%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=d38b670349aad141a5c28db08527c666%7C221db3d9139e4df0ae956ed5c5cdc029%7C7bd42f22-4c6c-4ef2-a1d3-f52571a03272&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.10-01.26.01:523][799]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.02.10-01.26.01:525][799]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.02.10-01.26.01:526][799]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.02.10-01.26.01:526][799]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.02.10-01.26.01:526][799]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.02.10-01.26.01:526][799]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.10-01.26.01:526][799]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.10-01.26.01:526][799]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.10-01.26.01:529][799]LogExit: Exiting.
-[2018.02.10-01.26.01:539][799]Log file closed, 02/09/18 20:26:01
+[2018.02.10-02.29.47:343][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-02.29.47:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.10-02.29.47:354][  0]LogInit: Computer: AUDREY-ANN_PC
+[2018.02.10-02.29.47:354][  0]LogInit: User: Xavier
+[2018.02.10-02.29.47:354][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.10-02.29.47:354][  0]LogInit: High frequency timer resolution =3.320336 MHz
+[2018.02.10-02.29.47:354][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.10-02.29.47:354][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.10-02.29.47:354][  0]LogMemory: Process Physical Memory: 272.00 MB used, 272.00 MB peak
+[2018.02.10-02.29.47:354][  0]LogMemory: Process Virtual Memory: 271.51 MB used, 271.51 MB peak
+[2018.02.10-02.29.47:354][  0]LogMemory: Physical Memory: 5069.46 MB used,  11211.67 MB free, 16281.14 MB total
+[2018.02.10-02.29.47:354][  0]LogMemory: Virtual Memory: 643.77 MB used,  11211.67 MB free, 134217728.00 MB total
+[2018.02.10-02.29.47:499][  0]LogInit: Using OS detected language (en-US).
+[2018.02.10-02.29.47:499][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.10-02.29.47:502][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.10-02.29.47:841][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.10-02.29.48:050][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.10-02.29.48:080][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 580' (Feature Level 11_0)
+[2018.02.10-02.29.48:080][  0]LogD3D11RHI:       3019/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.10-02.29.48:082][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2018.02.10-02.29.48:083][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.10-02.29.48:120][  0]LogD3D11RHI:    2. 'NVIDIA GeForce GTX 580' (Feature Level 11_0)
+[2018.02.10-02.29.48:120][  0]LogD3D11RHI:       3019/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.02.10-02.29.48:121][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.10-02.29.48:121][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.10-02.29.48:121][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.10-02.29.48:125][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.10-02.29.48:125][  0]LogD3D11RHI:     GPU DeviceId: 0x1080 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.10-02.29.48:125][  0]LogWindows: EnumDisplayDevices:
+[2018.02.10-02.29.48:125][  0]LogWindows:    0. 'NVIDIA GeForce GTX 580' (P:1 D:1)
+[2018.02.10-02.29.48:125][  0]LogWindows:    1. 'NVIDIA GeForce GTX 580' (P:0 D:1)
+[2018.02.10-02.29.48:125][  0]LogWindows:    2. 'NVIDIA GeForce GTX 580' (P:0 D:0)
+[2018.02.10-02.29.48:125][  0]LogWindows:    3. 'NVIDIA GeForce GTX 580' (P:0 D:0)
+[2018.02.10-02.29.48:125][  0]LogWindows:    4. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2018.02.10-02.29.48:126][  0]LogWindows:    5. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2018.02.10-02.29.48:126][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.02.10-02.29.48:126][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 580
+[2018.02.10-02.29.48:126][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2018.02.10-02.29.48:126][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2018.02.10-02.29.48:126][  0]LogRHI: Texture pool is 2113 MB (70% of 3019 MB)
+[2018.02.10-02.29.48:149][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.02.10-02.29.48:149][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.10-02.29.48:166][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.10-02.29.48:167][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Xavier/Documents/GameJam/WinterJam/Intermediate/Shaders/WorkingDirectory/4012/).
+[2018.02.10-02.29.48:167][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xavier/AppData/Local/Temp/UnrealShaderWorkingDir/081D02A44C105FFDF99021A91642A8C5/'.
+[2018.02.10-02.29.48:168][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.10-02.29.49:011][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.10-02.29.49:061][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.10-02.29.49:111][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.10-02.29.49:161][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.10-02.29.49:211][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.10-02.29.49:262][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.10-02.29.49:312][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.10-02.29.49:362][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.10-02.29.49:406][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.10-02.29.49:455][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.10-02.29.49:503][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.10-02.29.49:553][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.10-02.29.49:602][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.10-02.29.49:651][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.10-02.29.49:753][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.10-02.29.49:753][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.10-02.29.49:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.10-02.29.49:842][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.10-02.29.49:932][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.10-02.29.49:959][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.10-02.29.50:008][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.10-02.29.50:058][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.10-02.29.50:107][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.10-02.29.50:157][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.10-02.29.50:157][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.10-02.29.50:628][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.10-02.29.50:697][  0]LogDerivedDataCache: Loaded boot cache 0.07s 72MB C:/Users/Xavier/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.10-02.29.50:697][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xavier/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.10-02.29.50:697][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Xavier/Documents/GameJam/WinterJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.10-02.29.50:697][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.10-02.29.50:697][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Xavier/Documents/GameJam/WinterJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.10-02.29.50:697][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.10-02.29.50:714][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.10-02.29.50:726][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xavier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.10-02.29.50:736][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.10-02.29.50:737][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.10-02.29.50:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-02.29.50:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-02.29.51:096][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-02.29.51:422][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.10-02.29.51:463][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.10-02.29.51:463][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.10-02.29.51:463][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.10-02.29.51:463][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.10-02.29.51:463][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.10-02.29.51:488][  0]LogNetVersion: WinterJam , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3197503415)
+[2018.02.10-02.29.51:636][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.02.10-02.29.52:085][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.057894 seconds
+[2018.02.10-02.29.52:089][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.10-02.29.52:089][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.10-02.29.52:089][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.10-02.29.52:145][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.10-02.29.54:632][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.10-02.29.54:676][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.10-02.29.55:347][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.10-02.29.55:752][  0]SourceControl: Source control is disabled
+[2018.02.10-02.29.57:156][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.10-02.29.57:427][  0]LogOcInput: OculusInput pre-init called
+[2018.02.10-02.29.57:712][  0]LogEngine: Initializing Engine...
+[2018.02.10-02.29.57:714][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.10-02.29.57:915][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.10-02.29.57:915][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.10-02.29.58:045][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.10-02.29.58:051][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-02.29.58:067][  0]LogInit: FAudioDevice initialized.
+[2018.02.10-02.29.58:166][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Xavier/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.10-02.29.58:185][  0]LogInit: Texture streaming: Enabled
+[2018.02.10-02.29.58:288][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.10-02.29.58:413][  0]LogInit: Transaction tracking system initialized
+[2018.02.10-02.29.58:718][  0]BlueprintLog: New page: Editor Load
+[2018.02.10-02.29.59:597][  0]LocalizationService: Localization service is disabled
+[2018.02.10-02.30.00:321][  0]LogConsoleResponse: Display: 
+[2018.02.10-02.30.00:475][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.10-02.30.00:475][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.10-02.30.00:475][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.10-02.30.00:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xavier/Documents/GameJam/WinterJam/Content/' took 0.01s
+[2018.02.10-02.30.01:662][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Xavier/Documents/GameJam/WinterJam/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-02.30.01:663][  0]LightingResults: New page: Lighting Build
+[2018.02.10-02.30.01:704][  0]MapCheck: New page: Map Check
+[2018.02.10-02.30.01:704][  0]LightingResults: New page: Lighting Build
+[2018.02.10-02.30.01:798][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.02.10-02.30.01:798][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/Xavier/Documents/GameJam/WinterJam/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.02.10-02.30.01:799][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.02.10-02.30.01:834][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.02.10-02.30.01:834][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/Xavier/Documents/GameJam/WinterJam/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.02.10-02.30.01:834][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.02.10-02.30.01:855][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.02.10-02.30.01:855][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.02.10-02.30.01:855][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.02.10-02.30.01:855][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.02.10-02.30.01:861][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.02.10-02.30.01:862][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.02.10-02.30.01:862][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.02.10-02.30.01:862][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.02.10-02.30.02:006][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.10-02.30.02:012][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-02.30.02:020][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-02.30.02:069][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.602ms to complete.
+[2018.02.10-02.30.02:069][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.407
+[2018.02.10-02.30.02:127][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.10-02.30.02:202][  0]LogCollectionManager: Loaded 0 collections in 0.001798 seconds
+[2018.02.10-02.30.02:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xavier/Documents/GameJam/WinterJam/Saved/Collections/' took 0.01s
+[2018.02.10-02.30.02:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xavier/Documents/GameJam/WinterJam/Content/Developers/Xavier/Collections/' took 0.01s
+[2018.02.10-02.30.02:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xavier/Documents/GameJam/WinterJam/Content/Collections/' took 0.01s
+[2018.02.10-02.30.02:280][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.10-02.30.02:288][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2363 classes and 519 folders.
+[2018.02.10-02.30.02:361][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.10-02.30.02:398][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.10-02.30.02:441][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.10-02.30.02:455][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.10-02.30.02:458][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.10-02.30.02:462][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.10-02.30.02:563][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.10-02.30.02:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.10-02.30.02:782][  0]LogLoad: (Engine Initialization) Total time: 17.63 seconds
+[2018.02.10-02.30.02:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.10-02.30.02:782][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.10-02.30.02:807][  0]LogAssetRegistry: Asset discovery search completed in 11.1933 seconds
+[2018.02.10-02.30.02:809][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.10-02.30.02:809][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.02.10-02.30.02:811][  0]SourceControl: On branch master
+[2018.02.10-02.30.02:811][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.02.10-02.30.02:811][  0]SourceControl: Changes to be committed:
+[2018.02.10-02.30.02:811][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.02.10-02.30.02:811][  0]SourceControl: 	new file:   WinterJam/Content/Material/testbitch.uasset
+[2018.02.10-02.30.02:811][  0]SourceControl: 	new file:   WinterJam/Content/Materials/testbitch.uasset
+[2018.02.10-02.30.02:811][  0]SourceControl: Changes not staged for commit:
+[2018.02.10-02.30.02:811][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.02.10-02.30.02:811][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.02.10-02.30.02:811][  0]SourceControl: 	modified:   WinterJam/Intermediate/CachedAssetRegistry.bin
+[2018.02.10-02.30.02:811][  0]SourceControl: 	modified:   WinterJam/Saved/AutoScreenshot.png
+[2018.02.10-02.30.02:811][  0]SourceControl: 	modified:   WinterJam/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.02.10-02.30.02:811][  0]SourceControl: 	modified:   WinterJam/Saved/Config/Windows/Engine.ini
+[2018.02.10-02.30.02:811][  0]SourceControl: 	modified:   WinterJam/Saved/Logs/WinterJam.log
+[2018.02.10-02.30.02:811][  0]SourceControl: Untracked files:
+[2018.02.10-02.30.02:811][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.02.10-02.30.02:811][  0]SourceControl: 	WinterJam/Saved/Config/CrashReportClient/UE4CC-Windows-81BDC36442A2C6E0DF9C40A601392C20/
+[2018.02.10-02.30.02:811][  0]SourceControl: 	WinterJam/Saved/Config/CrashReportClient/UE4CC-Windows-A123D2B048A7530EAAB94987FD74673F/
+[2018.02.10-02.30.02:811][  0]SourceControl: 	WinterJam/Saved/Logs/WinterJam-backup-2018.02.09-21.23.10.log
+[2018.02.10-02.30.02:811][  0]SourceControl: 	WinterJam/Saved/Logs/WinterJam-backup-2018.02.09-21.29.45.log
+[2018.02.10-02.30.02:811][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.10-02.30.02:857][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
